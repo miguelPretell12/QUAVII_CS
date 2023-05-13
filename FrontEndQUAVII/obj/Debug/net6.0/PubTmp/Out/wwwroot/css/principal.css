@@ -1,0 +1,111 @@
+﻿body {
+    background-color: #f2f2f2;
+}
+
+.img-quavii {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.header-menu {
+    display: flex;
+    background-color: rgb(81, 66, 245);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border: 1px solid #000;
+}
+
+.boton-cerrarsesion {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(250, 250, 250);
+    padding: 8px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    .boton-cerrarsesion p {
+        margin: 0;
+        font-weight: 700;
+    }
+
+    .boton-cerrarsesion i {
+        font-size: 18px;
+        margin-right: 10px;
+    }
+
+    .boton-cerrarsesion:hover {
+        transition: all .3s ease-in;
+        background-color: #000;
+        color: white;
+    }
+
+.menu-lateral {
+    background-color: rgb(60, 45, 225);
+    position: absolute;
+    margin: 0;
+    width: 250px;
+    height: 100vh;
+    padding: 0 10px;
+    z-index: -1;
+}
+
+.menu-lateral-1 {
+    margin-top: 90px;
+}
+
+.menu-1 p {
+    margin: 0;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.menu-1 {
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    border: 1px solid #000;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(91, 91, 91);
+}
+
+.menu-sub-1 {
+    margin-top: 10px;
+    margin-left: 5px;
+    background-color: #fff;
+    border-radius: 5px;
+    display: block;
+}
+
+    .menu-sub-1 a {
+        display: block;
+        margin: 0;
+        text-decoration: none;
+        width: 100%;
+        padding: 5px 10px;
+        transition: all .3s ease-out;
+        color: #000;
+    }
+
+        .menu-sub-1 a:hover {
+            background-color: rgb(161, 161, 161);
+            color: #fff;
+            border-radius: 5px;
+        }
+
+
+.flex-direct-column {
+    flex-direction: column;
+}
+
+.content-info {
+    margin-top: 10px;
+    margin-left: 270px;
+}

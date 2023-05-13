@@ -1,0 +1,162 @@
+﻿
+@{
+    ViewData["Title"] = "Listado";
+    Layout = "~/Views/Shared/_LayoutPrincipal.cshtml";
+
+}
+
+<h1 class="font-2">Lista de Medidores</h1>
+
+<div class="">
+    <div class="d-flex forms-caja">
+        <div id="formBuscar" class="form-listado">
+            <input type="text" class="form-control w-1 m-1" placeholder="Número de medidor" id="medidor" />
+            <input type="text" class="form-control w-2 m-1" placeholder="Ciclo" id="ciclo" />
+            <input type="submit" class="btn btn-primary w-3 m-1" id="btnBuscar" value="Buscar" />
+            <form asp-action="exportData" asp-controller="Listado" method="post">
+                <input type="hidden" id="txtpendiente" name="pendiente" value="0" />
+                <input type="hidden" id="txtregistrado" name="registrado" value="0" />
+
+                <button type="submit" class="btn-excel">
+                    <div id="excel-export" class="export-excel">
+                        <i class="fas fa-file-excel"></i>
+                    </div>
+                </button>
+            </form>
+        </div>
+
+    </div>
+
+    <hr />
+    <div class="mt-1 registropendientes">
+        <div class="rpendientes-1">
+            <input type="checkbox" id="lbPendiente" name="chkPendientes" value="0" />
+            <label for="lbPendiente">Pendientes</label>
+        </div>
+        <div class="rpendientes-1">
+            <input type="checkbox" id="lbRegistro" name="chkRegistrados" value="0"/> 
+            <label for="lbRegistro">Registrados</label>
+        </div>
+    </div>
+    <hr />
+    <div class="table-responsive w-100">
+        <table id="tblListado" class="table w-100">
+            <thead class="thead-dark">
+                <tr>
+                    <th></th>
+                    <th>N° Medidor</th>
+                    <th>Fecha y Hora de lectura</th>
+                    <th>Ciclo</th>
+                    <th>Órden de Reparto</th>
+                    <th>Usuario Reparto</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Registrar Lectura</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="text-center">
+                    <h3>Detalle de Medidor:</h3>
+                    <p id="medidorHtml"></p>
+                </div>
+                <table class="table w-100">
+                    
+                        <tr>
+                            <td>Departamento</td>
+                            <td id="departamento"></td>
+                        </tr>
+                        <tr>
+                            <td>Provincia</td>
+                            <td id="provincia"></td>
+                        </tr>
+                        <tr>
+                            <td>Distrito</td>
+                            <td id="distrito"></td>
+                        </tr>
+                        <tr>
+                            <td>Dirección</td>
+                            <td id="direccion"></td>
+                        </tr>
+                </table>
+                @*<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15607.660797035582!2d-80.6917!3d-4.9145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2spe!4v1680558816885!5m2!1ses!2spe" class="w-100" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>*@
+               
+                <iframe src="" id="map" class="w-100" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+                @*<div id="map" style="height: 250px; width: 100%"></div>*@
+                <form id="formRegistro" enctype="multipart/form-data">
+                    <input type="hidden" id="idordentrabajos" />
+                    <input type="hidden" id="imgot" />
+                    <div class="form-group">
+                        <label>Fotos</label>
+                        <input type="file" id="imagenLectura" accept="image/png,image/jpeg" multiple/>
+                    </div>
+
+                    <div id="img-content">
+                        @*<img id="imagenOT" class="image-ot"/>*@
+                        
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>Lectura</label>
+                        <input type="number" class="form-control" id="nuevaLectura" step="0.01" min="0" value="0"/>
+                    </div>
+                    <div class="tipoObs">
+                        <div class="form-group">
+                            <label>Tipo Observación:</label>
+                            <select class="form-control" id="tipoobs">
+                                <option value="0">-- seleccione --</option>
+                            </select>
+                        </div>
+                    </div>
+                    @*<div>
+                        <div>
+                            <input type="checkbox" id="observacion"/>
+                            <label for="observacion">Observación</label>
+                        </div>
+                        <textarea id="observaciones" class="w-100 form-control"style="height: 150px" ></textarea>
+                    </div>*@
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                        <button type="submit" class="btn btn-primary">Registrar</button>
+                    </div>
+                </form>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+
+@section scripts {
+    <script id="listado" src="/js/ListadoMedidor.js"></script>
+    <script type="text/javascript">
+        document.addEventListener("DOMContentLoaded",function(){
+            const listar = document.querySelector("#listado");
+            listar.src = "/js/ListadoMedidor.js?v=" + Date.now()
+            
+        })
+
+    </script>
+    @*<script src="~/js/ListadoMedidor.js"></script>*@
+}

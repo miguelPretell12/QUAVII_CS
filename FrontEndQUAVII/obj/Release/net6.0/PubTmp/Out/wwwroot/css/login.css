@@ -1,0 +1,105 @@
+
+html, body {
+    background-color: #e6e6e6;
+}
+
+.img-logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.img-header {
+    background-color: rgb(52, 72, 187);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    min-height: 150px;
+}
+
+.login {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+}
+
+.caja-texto {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+    .caja-texto input[type="password"] {
+        border: none;
+        border: 1px solid #f2f2f2;
+        border-radius: 5px;
+        padding: 10px 10px 10px 8px;
+        background-color: #f3f1f1;
+    }
+
+    .caja-texto input[type="text"] {
+        border: none;
+        border: 1px solid #f2f2f2;
+        border-radius: 5px;
+        padding: 10px 10px 10px 8px;
+        background-color: #f3f1f1;
+    }
+
+    .caja-texto label {
+        font-weight: 700;
+        margin-bottom: 5px;
+    }
+
+.cuadro-login {
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+    background-color: #fff;
+    max-width: 400px;
+    width: 100%;
+}
+
+.p-15 {
+    padding: 20px;
+}
+
+.fw-texto {
+    font-size: 1rem;
+    color: #707070;
+}
+
+.btn-ingreso {
+    border: none;
+    color: white;
+    border-radius: 5px;
+    background-color: rgba(52, 72, 187, 0.9);
+    padding: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: background-color .5s ease-in-out;
+}
+
+    .btn-ingreso:hover {
+        background-color: rgb(52, 72, 187);
+    }
+
+.spinner-border {
+    width:4rem;
+    height:4rem;
+}
+
+.loaded-caja {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    display: none; /*flex;*/
+    justify-content: center;
+    align-items: center;
+    background-color: #00000029;
+}

@@ -1,0 +1,88 @@
+﻿.form-listado {
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.w-1 {
+    width:200px
+}
+
+.w-2 {
+    width: 140px
+}
+
+.w-3 {
+    width:100px
+}
+
+.registropendientes{
+    display:flex;
+    align-items:center;
+}
+
+.rpendientes-1 {
+    margin:0 10px;
+}
+
+.img-logo {
+    width: 50px!important;
+    height: 50px!important;
+    border-radius: 50%!important;
+}
+
+.font-2 {
+    font-size:2rem;
+}
+
+.dataTables_length, .dataTables_filter{
+    display:none;
+}
+
+.image-ot {
+    width:  150px;
+    height: 150px
+}
+
+.position-relative {
+    position:relative;
+}
+
+.loaded-caja {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    display: none!important; /*flex;*/
+    justify-content: center;
+    align-items: center;
+    background-color: #00000029;
+    z-index: 1200;
+}
+
+.export-excel {
+    font-size: 2rem;
+    margin: 0 10px;
+    color: #18b318;
+    cursor: pointer;
+}
+
+
+.forms-caja {
+    flex-wrap: wrap;
+}
+
+.btn-excel {
+    background-color: #ffffff00;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor-img {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}

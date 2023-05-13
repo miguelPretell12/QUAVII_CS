@@ -1,0 +1,17 @@
+C:\Users\pretell\Documents\ServiciosNET\BorradoSeguro2022_FIN\SERINT_AplicacionPiloto_QUAVII\WEB_QUAVII\Backend_Quavii\obj\Release\net6.0\PubTmp\Out\Backend_Quavii.exe
+C:\Users\pretell\Documents\ServiciosNET\BorradoSeguro2022_FIN\SERINT_AplicacionPiloto_QUAVII\WEB_QUAVII\Backend_Quavii\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+C:\Users\pretell\Documents\ServiciosNET\BorradoSeguro2022_FIN\SERINT_AplicacionPiloto_QUAVII\WEB_QUAVII\Backend_Quavii\obj\Release\net6.0\PubTmp\Out\appsettings.json
+C:\Users\pretell\Documents\ServiciosNET\BorradoSeguro2022_FIN\SERINT_AplicacionPiloto_QUAVII\WEB_QUAVII\Backend_Quavii\obj\Release\net6.0\PubTmp\Out\Backend_Quavii.dll
+C:\Users\pretell\Documents\ServiciosNET\BorradoSeguro2022_FIN\SERINT_AplicacionPiloto_QUAVII\WEB_QUAVII\Backend_Quavii\obj\Release\net6.0\PubTmp\Out\Backend_Quavii.deps.json
+C:\Users\pretell\Documents\ServiciosNET\BorradoSeguro2022_FIN\SERINT_AplicacionPiloto_QUAVII\WEB_QUAVII\Backend_Quavii\obj\Release\net6.0\PubTmp\Out\Backend_Quavii.runtimeconfig.json
+C:\Users\pretell\Documents\ServiciosNET\BorradoSeguro2022_FIN\SERINT_AplicacionPiloto_QUAVII\WEB_QUAVII\Backend_Quavii\obj\Release\net6.0\PubTmp\Out\Backend_Quavii.pdb
+C:\Users\pretell\Documents\ServiciosNET\BorradoSeguro2022_FIN\SERINT_AplicacionPiloto_QUAVII\WEB_QUAVII\Backend_Quavii\obj\Release\net6.0\PubTmp\Out\Microsoft.OpenApi.dll
+C:\Users\pretell\Documents\ServiciosNET\BorradoSeguro2022_FIN\SERINT_AplicacionPiloto_QUAVII\WEB_QUAVII\Backend_Quavii\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\pretell\Documents\ServiciosNET\BorradoSeguro2022_FIN\SERINT_AplicacionPiloto_QUAVII\WEB_QUAVII\Backend_Quavii\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\pretell\Documents\ServiciosNET\BorradoSeguro2022_FIN\SERINT_AplicacionPiloto_QUAVII\WEB_QUAVII\Backend_Quavii\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\pretell\Documents\ServiciosNET\BorradoSeguro2022_FIN\SERINT_AplicacionPiloto_QUAVII\WEB_QUAVII\Backend_Quavii\obj\Release\net6.0\PubTmp\Out\System.Data.SqlClient.dll
+C:\Users\pretell\Documents\ServiciosNET\BorradoSeguro2022_FIN\SERINT_AplicacionPiloto_QUAVII\WEB_QUAVII\Backend_Quavii\obj\Release\net6.0\PubTmp\Out\runtimes\win-arm64\native\sni.dll
+C:\Users\pretell\Documents\ServiciosNET\BorradoSeguro2022_FIN\SERINT_AplicacionPiloto_QUAVII\WEB_QUAVII\Backend_Quavii\obj\Release\net6.0\PubTmp\Out\runtimes\win-x64\native\sni.dll
+C:\Users\pretell\Documents\ServiciosNET\BorradoSeguro2022_FIN\SERINT_AplicacionPiloto_QUAVII\WEB_QUAVII\Backend_Quavii\obj\Release\net6.0\PubTmp\Out\runtimes\win-x86\native\sni.dll
+C:\Users\pretell\Documents\ServiciosNET\BorradoSeguro2022_FIN\SERINT_AplicacionPiloto_QUAVII\WEB_QUAVII\Backend_Quavii\obj\Release\net6.0\PubTmp\Out\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\pretell\Documents\ServiciosNET\BorradoSeguro2022_FIN\SERINT_AplicacionPiloto_QUAVII\WEB_QUAVII\Backend_Quavii\obj\Release\net6.0\PubTmp\Out\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
